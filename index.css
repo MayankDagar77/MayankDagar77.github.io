@@ -56,7 +56,7 @@ h1:hover{
     /* border: 2px solid aqua; */
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 400px;
     width: 40%;
 }
 #img-1{
@@ -114,23 +114,29 @@ h1:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     /* border: 4px solid blue; */
     height: 200px;
-    background-color:#5e22f4;
+    background-color: purple;
     /* border: 2px solid red; */
-    border-radius: 8px;
+    border-radius: 200px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 #container4>div>h3{
     color: whitesmoke;
 }
 #container4>div>img{
-    height: 60%;
+    height: 65%;
 }
-#skill{
+.skill{
     text-align: center;
     background-color: #5e22f4;
+    margin-bottom: 40px;
 }
+.project-txt{
+   text-decoration: dashed;
+}  
 
 #container5{
     margin-top: 20px;
@@ -139,6 +145,7 @@ h1:hover{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
     gap: 20px;
+    
 }
 .project-box1{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
