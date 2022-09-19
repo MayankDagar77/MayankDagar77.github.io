@@ -10,11 +10,11 @@
 <body>
     <div id="container1">
         <h1>Portfolio</h1>
-        <div><button id="btn1"><a href="#container1">Home</a></button></div>
-        <div><button id="btn2"><a href="#container3">About</a></button></div>
-        <div><button id="btn3"><a href="#container4">Skills</a></button></div>
-        <div><button id="btn4"><a href="#container5">Project</a></button></div>
-        <div><button id="btn5"><a href="#container6">Contact</a></button></div>
+        <button class="btn1"><a href="#container1">Home</a></button>
+        <button class="btn1"><a href="#container3">About</a></button>
+        <button class="btn1"><a href="#container4">Skills</a></button>
+        <button class="btn1"><a href="#container5">Project</a></button>
+        <button class="btn1"><a href="#container7">Contact</a></button>
     </div>
 
 
@@ -38,48 +38,72 @@
     <h2 id="skill">Tech Skills</h2>
     <div id="container4">
        <div>
-        <h3>Java</h3>
         <img src="Images/java_logo.jpg" alt="">
+        <h3>Java</h3>
        </div>
        <div>
-        <h3>DSA</h3>
         <img src="Images/logo-data-structure.png" alt="">
+        <h3>DSA</h3>
        </div>
        <div>
-        <h3>Git</h3>
         <img src="Images/git_logo.jpeg" alt="">
+        <h3>Git</h3>
        </div>
        <div>
-        <h3>HTML</h3>
         <img src="Images/html_logo.png" alt="">
+        <h3>HTML</h3>
        </div>
        <div>
-        <h3>CSS</h3>
         <img src="Images/css_logo.jpg" alt="">
+        <h3>CSS</h3>
        </div>
        <div>
-        <h3>Java Script</h3>
         <img src="Images/js_logo.jpg" alt="">
+        <h3>Java Script</h3>
        </div>
     </div>
 
 
-    <h3>Some of My Recent Projects</h3>
+    <h3 id="skill">Some of My Recent Projects</h3>
     <div id="container5">
      <div class="project-box1">
-       <h3></h3>
+       <img src="Images/project1.png">
+       <h3>licious clone</h3>
        <p></p>
+       <button class="project-btn"><a href="https://github.com/Ajay470/www.licious.com-clone" target="_blank" style="text-decoration:none">Code</a></button>
+       <button class="project-btn"><a href="https://tranquil-melomakarona-9be279.netlify.app/" target="_blank" style="text-decoration:none">Live</a></button>
           <!--link for project  -->
      </div>
-     <div class="project-box1"></div>
-     <div class="project-box1"></div>
+     <div class="project-box1">
+       <img src="Images/project2.png">
+       <h3>Zappos Clone</h3>
+       <p></p>
+       <button class="project-btn"><a href="https://github.com/GaneshGanta/overrated-impulse-4022" target="_blank" style="text-decoration:none">Code</a></button>
+       <button class="project-btn"><a href="https://luxury-kitten-e4c83d.netlify.app/home%20page/homepage" target="_blank" style="text-decoration:none">Live</a></button>
+     </div>
+     
     </div>
 
     
-    <h3>Contact Me</h3>
+    <h3>Get in Touch</h3>
     <div id="container6">
+       <div id="contact-box1"> 
+
+       </div>
+       <div id="contact-box2">
+        <label>Name</label>
+        <input type="text" placeholder="Enter Your Name">
+        <label>Email</label>
+        <input type="email"placeholder="Enter Your Email Address">
+        <label>Number</label>
+        <input type="number" placeholder="Enter Your Mobile No">
+        <textarea placeholder="Enter Your Message"></textarea>
+        <button id="submit_btn">Submit</button>
+       </div>  
 
     </div>
+
+    <div id="container7"></div>
 
 
 </body>
