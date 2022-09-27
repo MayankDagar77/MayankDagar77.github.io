@@ -17,6 +17,8 @@ body{
     background-color: #5E42A6;
     color: white;
     padding: 15px;
+    position: sticky;
+    top: 0px;
 }
 .btn1{
     border-radius: 400px;
@@ -154,7 +156,8 @@ h1:hover{
 }
 #container4-inner{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,280px);
+    margin: 0px auto auto auto;
     gap: 40px;
     grid-template-rows: 200px 200px;
 }
@@ -175,8 +178,57 @@ h1:hover{
 #container4-inner>div>h3{
     color: black;
 }
-#container4-inner>div>img{
-    height: 65%;
+#container4-inner>div:nth-child(1)>img{
+    height: 70%;
+    margin-bottom: 4px;
+}
+#container4-inner>div:nth-child(2)>img{
+    height: 100%;
+}
+#container4-inner>div:nth-child(2)>h3{
+    position: relative;
+    bottom: 20px;
+}
+#container4-inner>div:nth-child(3)>img{
+    height: 77%;
+}
+#container4-inner>div:nth-child(3)>h3{
+    position: relative;
+    bottom: 10px;
+}
+#container4-inner>div:nth-child(4)>img{
+    height: 55%;
+}
+#container4-inner>div:nth-child(4)>h3{
+    position: relative;
+    top: 13px;
+}
+#container4-inner>div:nth-child(5)>img{
+    height: 71%;
+}
+#container4-inner>div:nth-child(5)>h3{
+    position: relative;
+    bottom: 12px;
+    right: 4px;
+}
+#container4-inner>div:nth-child(6)>img{
+    height: 48%;
+    margin-bottom: 20px;
+}
+#container4-inner>div:nth-child(6)>h3{
+    position: relative;
+    bottom: 7px;
+}
+#container4-inner>div:nth-child(7)>img{
+    height: 31%;
+}
+#container4-inner>div:nth-child(7)>h3{
+    position: relative;
+    top: 13px;
+}
+#container4-inner>div:nth-child(8)>img{
+    height: 54%;
+    margin-bottom: 8px;
 }
 .animate-charcter
 {
@@ -256,17 +308,19 @@ h1:hover{
     margin-left: 30px;
     margin-bottom: 30px;
 }
-.project-box1>p{
+.project-box1>ul{
     color: white;
     text-align: left;
     margin-bottom: 28px;
-    margin-left: 30px;
+    margin-left: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .project-box1>h3{
     color: white;
     text-align: left;
     margin-bottom: 40px;
     margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .project-btn{
     padding: 8px 30px;
@@ -305,28 +359,116 @@ h1:hover{
 }
 #contact-box1{
     display: flex;
-    width: 20%;
+    flex-direction: column;
+    width: 30%;
     border: 4px solid blue;
-    margin-top: 100px;
-
-
+    position: relative;
+    top: 20px;
+    right: 60px;
 }
-#contact-box1>a>img{
-    width: 40%;
+#contact-link{
+    position: relative;
+    top: 20px;
 }
+#contact-link>a:nth-child(1)>img{
+   width: 15%; 
+}
+#contact-link>a:nth-child(1){
+    position: relative;
+    right: 48px;
+    bottom: 20px;
+}
+#contact-link>a:nth-child(2)>img{
+   width: 15%;
+}
+#contact-link>a:nth-child(2){
+    position: relative;
+    right: 38px;
+    bottom: 20px;
+}
+#contact-link>a:nth-child(3)>img{
+   width: 15%;  
+}
+#contact-link>a:nth-child(3){
+    position: relative;
+    right: 27px;
+    bottom: 20px;
+}
+#contact-link>a:nth-child(4)>img{
+   width: 15%; 
+}
+#contact-link>a:nth-child(4){
+    position: relative;
+    right: 18px;
+    bottom: 20px;
+}
+#contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact-info>p>img{
+    width: 10%;
+}
+
 #contact-box2{
     display: flex;
+    text-align: left;
     gap: 10px;
     border: 4px solid blue;
     flex-direction: column;
     /* border: 4px solid orange; */
     background-color: #5E42A6;
     color: white;
+    font-size: 20px;
     width: 50%;
-    margin-top: 100px;
+    position: relative;
+    top: 20px;
+    right: 200px;
+}
+#contact-box2>input{
+    padding: 10px;
+}
+#contact-box2>textarea{
+    padding-bottom: 150px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
 }
 #submit_btn{
-    height: 50px;
+    /* height: 50px;
     width: 50%;
-    margin: auto;
+    margin: 10px auto auto auto; */
+    width: 30%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    left: 220px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#submit_btn:hover{
+    transition: ease-out;
+    /* background-color: rgb(17, 17, 237); */
+    background-color: rgb(238, 75, 102);
+    color: white;
+    font-size: 24px;
+    
 }

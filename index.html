@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+   <div id="home"></div>
     <!-- container1 -->
     <div id="container1">
         <h1>Portfolio</h1>
-        <a href="#container1" class="btn1" >Home</a></button>
+        <a href="#home" class="btn1" >Home</a></button>
         <a href="#container3" class="btn1">About</a></button>
         <a href="#container4" class="btn1">Skills</a></button>
         <a href="#container5" class="btn1">Project</a></button>
@@ -67,7 +68,6 @@
 
     <!-- container4 -->
     <div id="container4">
-     <h2 id="tech-txt" class="skill"></h2>
      <h3 class="animate-charcter">Tech Skills</h3>
      <div id="container4-inner">
        <div>
@@ -113,7 +113,11 @@
      <div class="project-box1">
        <img src="Images/project1.png">
        <h2>Licious clone</h2>
-       <p>fadfs</p>
+       <ul>
+         <li>WOrk</li>
+         <li>wrok</li>
+         <li>wll</li>
+       </ul>
        <h3>Tech Stack-></h3>
        <a href="https://github.com/Ajay470/www.licious.com-clone" target="_blank" class="project-btn">Code</a>
        <a href="https://tranquil-melomakarona-9be279.netlify.app/" target="_blank" class="project-btn">Live</a>
@@ -122,7 +126,11 @@
      <div class="project-box1">
        <img src="Images/project2.png">
        <h2>Zappos Clone</h2>
-       <p>Flalsls</p>
+       <ul>
+         <li>WOrk</li>
+         <li>wrok</li>
+         <li>wll</li>
+       </ul>
        <h3>Tech Stack-></h3>
        <a href="https://github.com/GaneshGanta/overrated-impulse-4022" target="_blank" class="project-btn">Code</a>
        <a href="https://luxury-kitten-e4c83d.netlify.app/home%20page/homepage" target="_blank" class="project-btn">Live</a>
@@ -135,11 +143,20 @@
      <h3>Get in Touch</h3>
      <div id="container6-inner">
        <div id="contact-box1"> 
-          <a href="mailto:mayankdagar77@gmail.com"><img src="Images/gmail_logo.png" alt=""></a>
-          <a href="tel:+918882606277"><img src="Images/caller_logo.png" alt=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          
+         <div id="contact-link">
+           <a href="mailto:mayankdagar77@gmail.com" target="_blank"><img src="Images/gmail_logo.png" alt=""></a>
+           <a href="tel:+918882606277" target="_blank"><img src="Images/caller_logo.png" alt=""></a>
+           <a href="https://github.com/MayankDagar77" target="_blank"><img src="Images/git_logo2.png" alt=""></a>
+           <a href="https://www.linkedin.com/in/mayank-dagar-a1000b12a"><img src="Images/linked_logo.png" alt=""></a>
+         </div>
+         <div id="contact-info">
+           <p><img src="Images/person_logo.jpg" alt=""> Designed By -> Mayank Dagar</p>
+           <p><img src="Images/email_logo.png" alt="">mayankdagar77@gmail.com</p>
+           <p><img src="Images/call_logo.png" alt=""> +918882606277</p>
+           <p><img src="Images/call_logo.png" alt=""> +919716281678</p>
+           <p><img src="Images/loc_logo.png" alt=""> Ghaziabad,UttarPradesh</p>
+         </div>
+
        </div>
        <div id="contact-box2">
         <label>Name</label>
@@ -148,8 +165,9 @@
         <input type="email"placeholder="Enter Your Email Address">
         <label>Number</label>
         <input type="number" placeholder="Enter Your Mobile No">
+        <label>Message</label>
         <textarea placeholder="Enter Your Message"></textarea>
-        <button id="submit_btn">Submit</button>
+        <button id="submit_btn" onclick="changeText(); hey();">Submit</button>
        </div>  
       </div>
 
