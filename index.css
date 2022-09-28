@@ -35,8 +35,12 @@ body{
 .glow {
     text-align: center;
     display: block;
-  }
-  .glow span {
+}
+.glow:hover{
+    width: 15%;
+    transform: scaleX(1.1) scaleY(1.1);
+}
+.glow span {
     border-radius: 25px;
     color: #fff;
     box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
@@ -121,7 +125,7 @@ h1:hover{
     -moz-box-shadow: 0 0 5px #fff;
     -webkit-box-shadow: 0 0 5px #fff;
     box-shadow: 0px 0px 5px rgb(255, 255, 255);
-    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    /* -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5)); */
 }
 #img-1:hover{
     transform:rotate3d(1, 1, 1, 325deg);
