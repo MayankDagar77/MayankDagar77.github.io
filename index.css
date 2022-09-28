@@ -699,7 +699,7 @@ input[type=number] {
 
 
 /* Mobile and other devices */
-@media screen and (min-width: 320px) and (max-width: 800px) {
+@media screen and (min-width: 320px) and (max-width: 900px) {
 
     html, body {
         overflow-x: hidden; 
