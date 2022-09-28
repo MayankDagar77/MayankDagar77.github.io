@@ -34,7 +34,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
-    min-height: 243px;
+    min-height: 300px;
     text-align: center;
     margin: 10px auto auto auto;
     width: 90%;
@@ -80,7 +80,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 }
 
 .contrib-column {
-    padding: 15px 0;
+    padding: 15px 0px;
     text-align: center;
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
@@ -197,4 +197,34 @@ h2.f4.text-normal.mb-3 {
 text.ContributionCalendar-label {
     fill: #ccc;
     font-size: 11px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+
+    .calendar {
+        font-family: Helvetica, arial;
+        border: 1px solid #DDDDDD;
+        border-radius: 3px;
+        min-height: 80px;
+        text-align: center;
+        margin: 10px auto auto auto;
+        width: 90%;
+        padding: 5px;
+    }
+    text.ContributionCalendar-label {
+        fill: rgb(255, 253, 253);
+        font-size: 17px;
+    }
+    .contrib-column {
+        padding: 15px 0px;
+        text-align: center;
+        border-left: 1px solid #ddd;
+        border-top: 1px solid #ddd;
+        font-size: 10px;
+        background-color: black;
+        color: white;
+        margin-bottom: 0px;
+    }
+
 }
