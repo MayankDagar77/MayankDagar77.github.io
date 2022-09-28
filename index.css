@@ -1104,7 +1104,7 @@ input[type=number] {
 
 .text-c{
     position: relative;
-    right: 5px;
+    font-size: 17px;
 }
 #git{
     margin-top: 10px;
