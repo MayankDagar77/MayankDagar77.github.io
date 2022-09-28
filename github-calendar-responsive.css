@@ -37,7 +37,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     min-height: 243px;
     text-align: center;
     margin: 10px auto auto auto;
-    width: 90%
+    width: 90%;
 }
 
 .calendar-graph text.wday,
@@ -83,7 +83,11 @@ rect.ContributionCalendar-day[data-level='4'] {
     text-align: center;
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
-    font-size: 11px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
 }
 
 .contrib-column-first {
@@ -103,7 +107,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: #333;
+    color: white;
 }
 
 .calendar img.spinner {
