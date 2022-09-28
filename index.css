@@ -102,8 +102,9 @@ h1:hover{
 #container2{
    display: flex;
    background-color: #5E42A6;
-   margin: 80px auto auto auto;  
+   margin: 60px auto auto auto;  
    justify-content: center;
+   padding-bottom: 100px;
 }
 #img-box1{
     /* border: 2px solid aqua; */
@@ -145,7 +146,6 @@ h1:hover{
     font-size: 50px;
     color: black;
     margin-bottom: 20px;
-    border: 4px solid orangered;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .waviy {
@@ -226,7 +226,6 @@ h1:hover{
     flex-direction: column;
     margin-top: 0px;
     padding-top: 20px;
-    border: 10px solid red;
 }
 #container4-inner{
     display: grid;
@@ -698,22 +697,23 @@ input[type=number] {
 
 
 /* Tablet and other devices  */
-@media screen and (min-width: 802px) and (max-width: 1269px) {
+@media screen and (min-width: 951px) and (max-width: 1269px) {
 
-    html, body {
-        overflow-x: hidden; 
-        scroll-behavior: smooth; 
-    }
+    /* html, body {
+        
+    } */
     body {
         position: relative;
+        overflow-x: hidden;
+        width: 100%;
+        scroll-behavior: smooth; 
     }
 
     #container1{
-        /* position:sticky; */
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #6c3edf;  
+        background-color: #7946f8;
         color: white;
         padding: 20px;
         position: sticky;
@@ -775,6 +775,17 @@ input[type=number] {
             0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
         }
       }
+    /* h1{
+        color: black;    
+    }
+    h1:hover{
+        background-color:springgreen;
+        cursor: pointer;
+        background-color: rgb(12, 8, 23);
+        transform: scaleX(1.2) scaleY(1.2);
+        text-align: center;
+        color: white;
+    } */
     .btn1:hover{
         background-color: gold;
         transform: scaleX(1.2) scaleY(1.2);
@@ -786,28 +797,23 @@ input[type=number] {
     
     /* Container 2 */
     #container2{
-        display: flex;
-        /* justify-content: center; */
-        /* border: 4px solid red; */
-        background-color: #5E42A6;  
-        margin-top: 200px;
-        margin-right: 160px;
-        margin-bottom: 200px;
-        margin: 60px auto 100px auto;
+       display: flex;
+       background-color: #5E42A6;
+       margin: 80px auto auto auto;  
+       justify-content: center;
     }
     #img-box1{
         /* border: 2px solid aqua; */
         display: flex;
         justify-content: center;
-        height: 200px;
-        width: 40%;
+        align-items: center;
+        height: 400px;
+        width: 35%;
         margin: 0px auto auto auto;
     }
     #img-1{
-        height:65%;
-        width: 20%;
-        position: relative;
-        top: 40px;
+        height: 56%;
+        width: 50%;
         border-radius: 20px;
         -moz-box-shadow: 0 0 5px #fff;
         -webkit-box-shadow: 0 0 5px #fff;
@@ -823,9 +829,8 @@ input[type=number] {
         box-shadow: 120px 80px 40px 20px #0ff;
     }
     #home-box1{
-        position: relative;
-        top: 140px;
-        height: 200px;
+        width: 80%;
+        height: 400px;
         display: flex;
         line-height: 60px;
         flex-direction: column;
@@ -834,9 +839,8 @@ input[type=number] {
         /* border: 8px solid blue; */
     }
     #h-1{
-        font-size: 46px;
+        font-size: 40px;
         color: black;
-        margin-top: -140px;
         margin-bottom: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -847,7 +851,7 @@ input[type=number] {
     .waviy span {
         position: relative;
         display: inline-block;
-        font-size: 40px;
+        font-size: 32px;
         color:black;
         text-transform: uppercase;
         animation: flip 2s infinite;
@@ -889,17 +893,16 @@ input[type=number] {
         display: flex;
         flex-direction: column;
         /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; */
-        height: 650px;
-        margin: 100px auto 0px 150px;
-        width: 80%;
-        justify-content: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     #container3>h2{
         color: black;
-        font-size: 80px;
+        font-size: 60px;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
     }
     #container3>p{
         color:black;
@@ -917,15 +920,15 @@ input[type=number] {
     #container4{
         display: flex;
         flex-direction: column;
-        height: 2160px;
         margin-top: 0px;
+        padding-top: 20px;
     }
     #container4-inner{
         display: grid;
-        grid-template-columns: repeat(4,280px);
+        grid-template-columns: repeat(3,280px);
         margin: 0px auto 100px auto;
         gap: 40px;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: repeat(3,200px);
     }
     #container4-inner>div{
         display: flex;
@@ -1055,9 +1058,9 @@ input[type=number] {
     }
     #skill-set1{
         display: grid;
-        grid-template-columns: repeat(4,280px);
+        grid-template-columns: repeat(2,380px);
         gap: 50px;
-        grid-template-rows: 200px;
+        grid-template-rows: repeat(2,300px);
         margin: 6px auto 100px auto;
     }
     #skill-set1>div{
@@ -1316,9 +1319,9 @@ input[type=number] {
     #contact-info{
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 40px;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 10px;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -1385,7 +1388,6 @@ input[type=number] {
     }
 
 
-
 }
 
 
@@ -1396,14 +1398,17 @@ input[type=number] {
 
 
 /* Mobile and other devices */
-@media screen and (min-width: 320px) and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
 
-    html, body {
+    /* html, body {
         overflow-x: hidden; 
         scroll-behavior: smooth; 
-    }
+    } */
     body {
         position: relative;
+        overflow-x: hidden;
+        width: 100%;
+        scroll-behavior: smooth; 
     }
 
     #container1{
@@ -1505,7 +1510,7 @@ input[type=number] {
         justify-content: center;
         height: 220px;
         width: 300px;
-        margin: 0px auto -30px auto;
+        margin: 0px auto -0px auto;
     }
     #img-1{
         height: 60%;
@@ -1934,7 +1939,7 @@ input[type=number] {
     border: 2px solid grey;
     background-color: black;
     padding-bottom: 200px;
-    width: 70%;
+    width: 65%;
     height: 22%;
 }
 .project-box1 img{
@@ -1991,39 +1996,37 @@ input[type=number] {
 #container6{
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
     text-align: center;
-    height: 650px;
+    height: 600px;
+    position: relative;
+    bottom: 50px;
 }
 #container6>h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
-    margin: auto auto 40px auto; 
+    margin: auto auto auto auto; 
     text-decoration: underline;
+    position: relative;
+    bottom: 200px;
 }
 #container6-inner{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    /* border: 2px solid red; */
-    height: 800px;
     text-align: center;
-    width: 100%;
+    height: 100px;
 }
 #contact-box1{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    position: relative;
-    top: 80px;
-    left: 10px;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    align-items: center;
 }
 #contact-link{
-    position: relative;
-    top: 10px;
+    display: flex;
 }
 #contact-link>a:nth-child(1)>img{
-   width: 15%; 
+   width: 50px; 
 }
 #contact-link>a:nth-child(1){
     position: relative;
@@ -2031,7 +2034,7 @@ input[type=number] {
     bottom: 20px;
 }
 #contact-link>a:nth-child(2)>img{
-   width: 15%;
+    width: 50px;
 }
 #contact-link>a:nth-child(2){
     position: relative;
@@ -2039,7 +2042,7 @@ input[type=number] {
     bottom: 20px;
 }
 #contact-link>a:nth-child(3)>img{
-   width: 15%;  
+   width: 50px; 
 }
 #contact-link>a:nth-child(3){
     position: relative;
@@ -2047,7 +2050,7 @@ input[type=number] {
     bottom: 20px;
 }
 #contact-link>a:nth-child(4)>img{
-   width: 15%; 
+   width: 50px;
 }
 #contact-link>a:nth-child(4){
     position: relative;
@@ -2065,13 +2068,12 @@ input[type=number] {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #contact-info>p>img{
-    width: 10%;
+    width: 50px;
 }
 
 #contact-box2{
-    gap: 10px;
     width: 50%;
-    margin: 130px auto auto auto;
+    margin: 70px auto auto auto;
 }
 #contact-box2>form{
     /* border: 4px solid orange; */
@@ -2096,7 +2098,6 @@ input[type=number] {
 }
 #contact-box2>form>button{
     margin-right: 500px;
-    margin-bottom: 50px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -2107,7 +2108,7 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 #submit_btn{
-    width: 85%;
+    width: 130px;
     height: 60px;
     border: none;
     outline: none;
