@@ -17,7 +17,7 @@ body{
     /* background-color: #d8cfef;   */
     background-color: #7946f8;
     color: white;
-    padding: 15px;
+    padding: 20px;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -61,6 +61,7 @@ h1:hover{
     height:fit-content; 
     margin-top: 100px;
     margin-right: 160px;
+    margin-bottom: 200px;
 }
 #img-box1{
     /* border: 2px solid aqua; */
@@ -744,7 +745,7 @@ input[type=number] {
         color: black;
         margin-top: 0px;
         margin-bottom: 20px;
-        margin-left: 90px;
+        margin-left: 100px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .waviy {
