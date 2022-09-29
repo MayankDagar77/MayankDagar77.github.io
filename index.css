@@ -2110,7 +2110,7 @@ input[type=number] {
 #submit_btn{
     width: 130px;
     height: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 25px;
     border: none;
     outline: none;
     background: #2f2f2f;
