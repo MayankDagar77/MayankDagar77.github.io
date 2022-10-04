@@ -809,7 +809,7 @@ input[type=number] {
         align-items: center;
         height: 400px;
         width: 35%;
-        margin: 0px auto auto auto;
+        margin: 50px auto auto auto;
     }
     #img-1{
         height: 56%;
@@ -1500,7 +1500,7 @@ input[type=number] {
         background-color: #5E42A6;  
         height:fit-content; 
         width: fit-content;
-        margin: auto;
+        margin: auto auto 0px auto;
         flex-direction: column;
     }
     #img-box1{
@@ -1572,7 +1572,7 @@ input[type=number] {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
         background-color: black;
         font-size: 12px;
-        margin-right: 20px;
+        margin-right: 10px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     #resume:hover{
