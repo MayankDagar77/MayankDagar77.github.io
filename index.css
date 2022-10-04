@@ -113,7 +113,7 @@ h1:hover{
     align-items: center;
     height: 400px;
     width: 35%;
-    margin: 0px auto auto auto;
+    margin: 40px auto auto auto;
 }
 #img-1{
     height: 55%;
@@ -139,10 +139,11 @@ h1:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
     /* border: 8px solid blue; */
 }
 #h-1{
-    font-size: 50px;
+    font-size: 60px;
     color: black;
     margin-bottom: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -154,7 +155,7 @@ h1:hover{
 .waviy span {
     position: relative;
     display: inline-block;
-    font-size: 42px;
+    font-size: 48px;
     color:black;
     text-transform: uppercase;
     animation: flip 2s infinite;
