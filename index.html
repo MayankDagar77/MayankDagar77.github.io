@@ -10,9 +10,37 @@
 </head>
 <body>
    <div id="home"></div>
+    <!-- Burger menu start -->
+      <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <div class="logo">
+              <h1>Portfolio</h1>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#projects">Project</a></li>
+              <li><a href="#contact-section">Contact</a></li>
+              <li><a href="Documents/Mayank-Dagar-Resume.pdf" download="Mayank Dagar">Resume</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+
+    <!-- Burger menu end -->
+
     <!-- container1 -->
     <div id="container1">
-        <div class="glow">
+        <div class="glow" >
         <span class="text"><a href="">Portfolio</a></span>
         </div>
         <a href="#home" class="btn1" >Home</a></button>
@@ -20,11 +48,13 @@
         <a href="#skill" class="btn1">Skills</a></button>
         <a href="#projects" class="btn1">Project</a></button>
         <a href="#contact-section" class="btn1">Contact</a></button>
+        <a href="Documents/Mayank-Dagar-Resume.pdf" download="Mayank Dagar" class="btn1">Resume</a></button>
     </div>
+  </nav>
 
     <!-- container2 -->
     <div id="container2">
-       <div id="img-box1"><img src="Images/ppz.png" alt="Error" id="img-1" ></div>
+       <div id="img-box1"><img src="Images/pp10.png"Error" id="img-1" ></div>
        <div id="home-box1">
         <h2 id="h-1">Mayank Dagar</h2>
         <div class="waviy">
@@ -219,7 +249,8 @@
              </div>
  
      </div>
-     <h2 id="git">My Github Contribution</h2>
+
+     <h2 id="git">My GitHub Contribution</h2>
      <div class="calendar"> 
         <!-- Loading stuff -->
         Loading the data just for you.
@@ -227,11 +258,69 @@
      <div id="projects"></div>
     </div>
 
+     <!-- Github stats -->
+     <div id="stats-1">
+      <div>
+        <a href="https://github.com/MayankDagar77">
+          <img id="stats-1-img"
+            align="left"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=MayankDagar77&theme=radical"
+          />
+        </a>
+      </div>
+ 
+     <div id="stats-2">
+      <div id="stats-2-div">
+        <a href="https://github.com/mayankdagar77">
+          <img 
+            align="left"
+            src="https://github-readme-stats.vercel.app/api?username=mayankdagar77&count_private=true&show_icons=true&theme=radical" //stats
+          />
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/MayankDagar77">  
+          <img 
+            align="center" 
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankDagar77&theme=radical"  //launguages
+          />
+        </a>
+      </div>
+     </div>
+    </div>
+
+
 
     <!-- container5 -->
    <div id="container5">
     <h3 id="project-txt">Some of My Recent Projects</h3>
     <div id="container5-inner">
+      <div class="project-box1">
+        <img src="Images/project2.png">
+        <h2>Zappos Clone</h2>
+        <ul>
+         <li>A clone of Zappos.com, an American shoe and
+           clothing retailer based in Las Vegas.</li>
+          <li>The Project took 6 days to finish by a group of 5 developers.</li>
+          <li>My responsibility was to design the Product page,Men's section and Shoes section.</li>
+        </ul>
+        <h3>Tech Stack - <br> <p class="stack"> HTML | CSS | JavaScript | Api | Local Storage </p> </h3>
+        <a href="https://github.com/MayankDagar77/overrated-impulse-4022" target="_blank" class="project-btn">Code</a>
+        <a href="https://willowy-cassata-170461.netlify.app/" target="_blank" class="project-btn">Live</a>
+      </div>
+       <div class="project-box1">
+       <img src="Images/project2.png">
+       <h2>Zappos Clone</h2>
+       <ul>
+        <li>A clone of Zappos.com, an American shoe and
+          clothing retailer based in Las Vegas.</li>
+         <li>The Project took 6 days to finish by a group of 5 developers.</li>
+         <li>My responsibility was to design the Product page,Men's section and Shoes section.</li>
+       </ul>
+       <h3>Tech Stack - <br> <p class="stack"> HTML | CSS | JavaScript | Api | Local Storage </p> </h3>
+       <a href="https://github.com/MayankDagar77/overrated-impulse-4022" target="_blank" class="project-btn">Code</a>
+       <a href="https://willowy-cassata-170461.netlify.app/" target="_blank" class="project-btn">Live</a>
+     </div>
      <div class="project-box1">
        <img src="Images/project2.png">
        <h2>Zappos Clone</h2>
@@ -241,7 +330,7 @@
          <li>The Project took 6 days to finish by a group of 5 developers.</li>
          <li>My responsibility was to design the Product page,Men's section and Shoes section.</li>
        </ul>
-       <h3>Tech Stack- HTML | CSS | JavaScript | Api | Local Storage</h3>
+       <h3>Tech Stack - <br> <p class="stack"> HTML | CSS | JavaScript | Api | Local Storage </p> </h3>
        <a href="https://github.com/MayankDagar77/overrated-impulse-4022" target="_blank" class="project-btn">Code</a>
        <a href="https://willowy-cassata-170461.netlify.app/" target="_blank" class="project-btn">Live</a>
      </div>
@@ -249,12 +338,11 @@
       <img src="Images/project1.png">
       <h2>Licious clone</h2>
       <ul>
-         <li>A clone of Licious.com, an online fresh meat
-          delivery shop.</li>
+         <li>A clone of Licious.com, an online fresh meat delivery shop based in New Delhi.</li>
         <li>The Project took 6 days to finish by a group of 5 developers.</li>
         <li>My responsibility was to design the Homepage along with the footer section</li>
       </ul>
-      <h3>Tech Stack - HTML | CSS | JavaScript | Local Storage</h3>
+      <h3>Tech Stack - <br> <p class="stack"> HTML | CSS | JavaScript | Api | Local Storage </p> </h3>
       <a href="https://github.com/MayankDagar77/www.licious.com-clone" target="_blank" class="project-btn">Code</a>
       <a href="https://tranquil-melomakarona-9be279.netlify.app/" target="_blank" class="project-btn">Live</a>
      </div>
@@ -300,8 +388,6 @@
 
     </div>
 
-    <!-- container7 -->
-    <div id="container7"></div>
 
 
 </body>
