@@ -1233,10 +1233,10 @@ input[type=number] {
     }
     #stats-2>div:nth-child(1) img{
         height: 158px;
-        width: 300px;
+        width: 350px;
         position: relative;
         top:32px;
-        left: 20px;
+        left: 40px;
     }  
     #stats-2>div:nth-child(2) img{  
         width: 400px;
@@ -1356,44 +1356,46 @@ input[type=number] {
         top: 20px;
         left: -40px; */
         padding: 40px;
-        margin-right:160px;
+        margin:auto 90px 190px auto;
+        justify-content: center;
+        align-items: center;
     }
     #contact-link{
         position: relative;
         top: 0px;
-        left: 0px;
+        left: 10px;
+        /* border: 4px solid red; */
     }
     #contact-link>a:nth-child(1)>img{
        width: 25%; 
     }
     #contact-link>a:nth-child(1){
         position: relative;
-        right: 20px;
-        bottom: 35px;
+        bottom: 110px;
     }
     #contact-link>a:nth-child(2)>img{
        width: 25%;
     }
     #contact-link>a:nth-child(2){
         position: relative;
-        right: 10px;
-        bottom: 35px;
+        right: 45px;
+        bottom: 110px;
     }
     #contact-link>a:nth-child(3)>img{
        width: 25%;  
     }
     #contact-link>a:nth-child(3){
         position: relative;
-        right: 0px;
-        bottom: 35px;
+        right: 35px;
+        bottom: 110px;
     }
     #contact-link>a:nth-child(4)>img{
        width: 26%; 
     }
     #contact-link>a:nth-child(4){
         position: relative;
-        left: 135px;
-        bottom: 98px;
+        left: 60px;
+        bottom: 155px;
     }
     #contact-info{
         display: grid;
@@ -1402,9 +1404,11 @@ input[type=number] {
         line-height: 35px;
         margin-top: -60px;
         text-align: left;
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+        bottom: 50px;
     }
     #contact-info>div{
         display: flex;
@@ -1416,8 +1420,8 @@ input[type=number] {
         bottom: 10px;
     }
     #contact-info>div>img{
-        width: 20%;
-        height: 60px;
+        width: 18%;
+        height: 38px;
     }
     
     #contact-box2{
@@ -1442,14 +1446,14 @@ input[type=number] {
     #contact-box2>form>textarea{
         padding-bottom: 150px;
     }
-    input::-webkit-outer-spin-button,
+    /* input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
     }
     input[type=number] {
       -moz-appearance: textfield;
-    }
+    } */
     #submit_btn{
         /* height: 50px;
         width: 50%;
@@ -1464,8 +1468,7 @@ input[type=number] {
         border-radius: 40px;
         text-align: center;
         box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
-        position: relative;
-        left: 120px;
+        left: 180px;
         overflow: hidden;
         cursor: pointer;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1721,45 +1724,44 @@ nav{
         /* border: 4px solid red; */
         background-color: #5E42A6;  
         width: fit-content;
-        margin: -50px auto -95px auto;
+        margin: auto auto -255px auto;
         flex-direction: column;
     }
     #img-box1{
         /* border: 2px solid aqua; */
         display: flex;
         justify-content: center;
-        height: 220px;
+        height: 200px;
         width: 300px;
-        margin: 0px auto 0px auto;
+        margin: auto;
     }
     #img-1{
         height: 60%;
         position: relative;
         top: 50px;
-        right: 5px;
     }
     #home-box1{
+        width: 100%;
         position: relative;
-        bottom: 80px;
+        bottom: 90px;
         display: flex;
         line-height: 60px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: auto auto 0px auto;
+        margin: auto auto auto auto;
+        text-align: center;
     }
     #h-1{
         font-size: 30px;
         width: 100%;
         color: black;
-        margin-top: 0px;
-        margin-bottom: 20px;
-        margin-left: 100px;
+        margin:auto auto auto auto;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .waviy {
         position: relative;
-        bottom: 40px;
+        bottom: 130px;
         left: 0px;
     }
     .waviy span {
@@ -1787,7 +1789,7 @@ nav{
         justify-content: center;
         align-items: center;
         position: relative;
-        bottom: 40px;
+        bottom: 140px;
         padding: 0px 10px 0px 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
         background-color: black;
@@ -2141,18 +2143,18 @@ nav{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-top: -35px;
+    margin-top: -10px;
 }
 #stats-2-div{
     display: flex;
     position: relative;
-    right: 10px;
+    margin: auto;
 }
 #stats-2>div:nth-child(1) img{
-    width: 95%;
+    width: 100%;
 }
 #stats-2>div:nth-child(2){ 
-    margin-top: 40px;
+    margin-top:10px;
 }
 #stats-2>div:nth-child(2) img{
     width: 100%;
@@ -2165,7 +2167,7 @@ nav{
     flex-direction: column;
     text-align: center;
     background-color: #b095f6;
-    padding-top:16px;
+    padding-top:46px;
     padding-bottom: 50px;
 }
 #container5>h3{
@@ -2245,7 +2247,7 @@ nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -100px;
 }
 #container6>h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -2253,7 +2255,7 @@ nav{
     margin: auto auto auto auto; 
     text-decoration: underline;
     position: relative;
-    bottom: 190px;
+    bottom: 150px;
 }
 #container6-inner{
     display: flex;
@@ -2304,7 +2306,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr;
     gap: 0px;
-    margin-top: 10px;
+    margin-top:30px;
     text-align: left;
     margin-left: 25px;
     line-height: 30px;
@@ -2313,7 +2315,7 @@ nav{
 }
 #contact-info>div img{
     width: 20%;
-    height: 50px;
+    height: 40px;
 }
 #contact-info>div{
     display: flex;
@@ -2327,7 +2329,7 @@ nav{
 
 #contact-box2{
     width: 50%;
-    margin: 10px auto auto auto;
+    margin: 30px auto auto auto;
 }
 #contact-box2>form{
     /* border: 4px solid orange; */
@@ -2352,14 +2354,10 @@ nav{
 }
 #contact-box2>form>button{
     text-align: center;
+    margin: 20px auto 20px auto;
 }
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type=number] {
-  -moz-appearance: textfield;
+#contact-box2>form>button:hover{
+    border: 4px solid red;
 }
 #submit_btn{
     position: relative;
@@ -2371,10 +2369,9 @@ input[type=number] {
     color: #fff;
     font-size: 12px;
     border-radius: 40px;
-    border: 4px solid red;
     box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
     cursor: pointer;
-    padding: 20px 60px;
+    padding: 16px 88px 20px 60px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #submit_btn:hover{
