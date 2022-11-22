@@ -328,10 +328,10 @@ h1:hover{
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #10d020 60%,
-    #8214f8 29%,
-    #12a7ec 67%,
-    #fff800 100%
+    #151815 60%,
+    #7b0ef1 29%,
+    #5e12ec 67%,    
+    #090909 100%
   );
   background-size: auto auto;
   background-clip: border-box;
