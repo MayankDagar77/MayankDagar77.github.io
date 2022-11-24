@@ -176,7 +176,7 @@ h1:hover{
     position: relative;
     display: inline-block;
     font-size: 48px;
-    color:black;
+    color:rgb(254, 254, 254);
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
