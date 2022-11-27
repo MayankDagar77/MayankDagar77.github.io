@@ -93,25 +93,22 @@ html{
 /* Container 2 */
 #container2{
    display: flex;
-   margin: 100px auto auto auto;  
+   margin: 200px auto 300px auto;  
    justify-content: center;
-   padding-bottom: 180px;
 }
 #container2>img{
    width: 25%;
-   margin: auto auto auto 120px;
+   margin: auto auto auto 90px;
    border-radius: 100px;
 }
 #home-box1{
-    width: 80%;
-    height: 400px;
+    margin-right: 90px;
     display: flex;
     line-height: 60px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    /* border: 8px solid blue; */
 }
 #h-1{
     font-size: 60px;
@@ -212,7 +209,7 @@ html{
             2px 4px 8px 0px rgba(6, 6, 6, 0.7),
             2px 4px 16px 0px rgba(9, 9, 9, 0.7);
     width: 92%;
-    margin-left: 65px;
+    margin: auto;
     border-radius: 20px;
     display: flex;
     padding-right: 40px;
@@ -281,8 +278,7 @@ html{
     padding-top: 20px;
 }
 #container4>h3{
-    margin-top: 0px;
-    margin-left: 70px;
+    margin:auto;
     font-size: 40px;
     margin-bottom: 60px;
     box-shadow: rgba(4, 4, 4, 0.17) 0px -23px 25px 0px inset, rgba(4, 4, 4, 0.15)36px 30px 0px inset, rgba(10, 9, 9, 0.1)0px -79px 40px 0px inset, rgba(7, 7, 7, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(4, 4, 4, 0.09) 0px 8px 4px, rgba(7, 7, 7, 0.09) 0px 16px 8px, rgba(10, 10, 10, 0.09) 0px 32px 16px;
@@ -297,9 +293,10 @@ html{
 #container4-inner{
     display: grid;
     grid-template-columns: repeat(4,280px);
-    margin: 0px auto 100px auto;
-    gap: 40px;
-    grid-template-rows: 200px 200px;
+    margin:auto auto 50px;
+    row-gap: 40px;
+    column-gap: 20px;
+    grid-template-rows: repeat(2,200px);
 }
 #container4-inner>div{
     display: flex;
@@ -308,10 +305,7 @@ html{
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    /* border: 4px solid blue; */
-    height: 200px;
     background-color: white;
-    /* border: 2px solid red; */
     border-radius: 40px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
@@ -432,9 +426,10 @@ html{
 #skill-set1{
     display: grid;
     grid-template-columns: repeat(4,280px);
-    gap: 50px;
+    row-gap: 40px;
+    column-gap: 20px;
     grid-template-rows: 200px;
-    margin: 6px auto 80px auto;
+    margin: 0px auto 80px auto; 
 }
 #skill-set1>div{
     background-color: rgb(255, 255, 255);
@@ -619,7 +614,7 @@ html{
     font-size: 15px;
     margin-top: 10px;
     line-height: 25px;
-    margin-left: 10px;
+    margin-left: 10px; 
 }
 
 
@@ -761,7 +756,7 @@ input[type=number] {
 
 
 /* Tablet and other devices  */
-@media screen and (min-width: 721px)  and (max-width: 1024px) {
+@media screen and (min-width: 721px)  and (max-width: 1300px) {
 
     /* html, body {
         
@@ -787,16 +782,6 @@ input[type=number] {
     .navbar{
         display: none;
     }
-    .btn1{
-        border-radius: 400px;
-        cursor: pointer;
-        border: none;
-        text-decoration: none;
-        padding: 15px 32px;
-        display: inline-block;
-        background-color: black;
-        color: white;
-    } 
     .glow {
         text-align: center;
         display: none;
@@ -853,25 +838,12 @@ input[type=number] {
         text-align: center;
         color: white;
     } */
-    .btn1:hover{
-        background-color: gold;
-        transform: scaleX(1.2) scaleY(1.2);
-        transition: 0.5s ease;
-        animation: right-animate 1s ease infinite alternate;
-        color:red;
-    }
     
     
     /* Container 2 */
-    #container2{
-       display: flex;
-       background-color: #5E42A6;
-       padding: 20px;
-       justify-content: center;
-       align-items: center;
-       margin-top: -30px;
-       margin-bottom: 50px;
-    }
+    /* #container2{
+       margin: auto;
+    } */
     #img-box1{
         /* border: 2px solid aqua; */
         display: flex;
@@ -955,9 +927,6 @@ input[type=number] {
     
     
     /* container 3 */
-    #about{
-        background-color: #b095f6;
-    }
     #container3{
         display: flex;
         flex-direction: column;
@@ -994,10 +963,10 @@ input[type=number] {
     }
     #container4-inner{
         display: grid;
-        grid-template-columns: repeat(2,280px);
+        grid-template-columns: repeat(3,1fr);
         margin: 0px auto 100px auto;
         gap: 80px;
-        grid-template-rows: repeat(3,200px);
+        grid-template-rows: repeat(3,1fr);
     }
     #container4-inner>div{
         display: flex;
