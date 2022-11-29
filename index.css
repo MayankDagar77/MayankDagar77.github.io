@@ -684,7 +684,7 @@ html{
 }
 #contact-link>a:nth-child(1){
    position: relative;
-   left: 5rem;
+   left: 2rem;
 }
 #contact-link>a:nth-child(2)>img{
    width: 48%;
@@ -692,7 +692,7 @@ html{
 }
 #contact-link>a:nth-child(2){
     position: relative;
-    right: 0px;
+    right: 2rem;
 }
 #contact-link>a:nth-child(3)>img{
    width: 55%;  
@@ -700,7 +700,7 @@ html{
 }
 #contact-link>a:nth-child(3){
     position: relative;
-    right: 2.5rem;
+    right: 3.5rem;
 }
 #contact-link>a:nth-child(4)>img{
    width: 43%; 
@@ -708,7 +708,7 @@ html{
 }
 #contact-link>a:nth-child(4){
     position: relative;
-    right: 6rem;
+    right: 5rem;
 }
 #contact-box1>img{
     margin-bottom: 10rem;
@@ -896,6 +896,45 @@ input[type=number] {
     /* container5 */
     
     /* Container 6 */
+    #contact-link>a:nth-child(1)>img{
+        width: 40%;
+        margin-top: 0.5rem;
+     }
+     #contact-link>a:nth-child(1){
+        position: relative;
+        left: 2rem;
+     }
+     #contact-link>a:nth-child(2)>img{
+        width: 48%;
+        margin-top: 5px;
+     }
+     #contact-link>a:nth-child(2){
+         position: relative;
+         right: 0rem;
+     }
+     #contact-link>a:nth-child(3)>img{
+        width: 55%;  
+        margin-top: 5px; 
+     }
+     #contact-link>a:nth-child(3){
+         position: relative;
+         right: 1rem;
+     }
+     #contact-link>a:nth-child(4)>img{
+        width: 43%; 
+        margin-top: 5px; 
+     }
+     #contact-link>a:nth-child(4){
+         position: relative;
+         right: 2rem;
+     }
+     #contact-box1>img{
+         margin-bottom: 10rem;
+     }
+     #details-1{
+         color: white;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
    
 
 
@@ -1435,7 +1474,6 @@ nav{
     row-gap: 3rem;
     text-align: center;
     font-size: 2rem;
-    border: 4px solid red;
 }
 #container4-inner>div>h3{
     color: black;
@@ -1778,11 +1816,11 @@ nav{
 }
 #contact-link>a:nth-child(1)>img{
    width: 40%;
-   margin-top: 0.5rem; 
+   margin-top: 0.5rem;
 }
 #contact-link>a:nth-child(1){
    position: relative;
-   left: 5rem;
+   left: 3rem;
 }
 #contact-link>a:nth-child(2)>img{
    width: 48%;
@@ -1790,7 +1828,7 @@ nav{
 }
 #contact-link>a:nth-child(2){
     position: relative;
-    right: 0px;
+    right: 0rem;
 }
 #contact-link>a:nth-child(3)>img{
    width: 55%;  
@@ -1798,7 +1836,7 @@ nav{
 }
 #contact-link>a:nth-child(3){
     position: relative;
-    right: 2.5rem;
+    right: 2rem;
 }
 #contact-link>a:nth-child(4)>img{
    width: 43%; 
@@ -1806,7 +1844,7 @@ nav{
 }
 #contact-link>a:nth-child(4){
     position: relative;
-    right: 6rem;
+    right: 4rem;
 }
 #contact-box1>img{
     margin-bottom: 10rem;
@@ -1871,4 +1909,5 @@ nav{
     background-color: rgb(238, 75, 102);
     color: white;
     font-size: 2.4rem;
+}
 }
