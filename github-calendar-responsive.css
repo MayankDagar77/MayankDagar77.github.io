@@ -34,22 +34,22 @@ rect.ContributionCalendar-day[data-level='4'] {
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
-    min-height: 300px;
+    min-height: 30rem;
     text-align: center;
-    margin: 10px auto auto auto;
+    margin: 1rem auto auto auto;
     width: 90%;
     padding: 4px;
 }
 
 .calendar-graph text.wday,
 .calendar-graph text.month {
-    font-size: 10px;
+    font-size: 1rem;
     fill: #aaa;
 }
 
 .contrib-legend {
     text-align: right;
-    padding: 0 14px 10px 0;
+    padding: 0 1.4rem 1rem 0;
     display: inline-block;
     float: right;
 }
@@ -65,29 +65,29 @@ rect.ContributionCalendar-day[data-level='4'] {
 
 .contrib-legend .legend li {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .text-small {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #767676;
 }
 
 .calendar-graph {
-    padding: 5px 0 0;
+    padding: 0.5rem 0 0;
     text-align: center;
 }
 
 .contrib-column {
-    padding: 15px 0px;
+    padding: 1.5rem 0px;
     text-align: center;
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
-    font-size: 10px;
+    font-size: 1rem;
     background-color: black;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     border-bottom: 2px solid white;
 }
 
@@ -98,23 +98,23 @@ rect.ContributionCalendar-day[data-level='4'] {
 .table-column {
     display: table-cell;
     width: 1%;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 1rem;
+    padding-left: 1rem;
     vertical-align: top;
 }
 
 .contrib-number {
     font-weight: 300;
     line-height: 1.3em;
-    font-size: 24px;
+    font-size: 2.4rem;
     display: block;
     color: white;
 }
 
 .calendar img.spinner {
-    width: 70px;
-    margin-top: 50px;
-    min-height: 70px;
+    width: 7rem;
+    margin-top: 5rem;
+    min-height: 7rem;
 }
 
 .monospace {
@@ -129,12 +129,12 @@ rect.ContributionCalendar-day[data-level='4'] {
 }
 
 .contrib-footer {
-    font-size: 11px;
-    padding: 0 10px 12px;
+    font-size: 1.1rem;
+    padding: 0 1rem 1.2rem;
     text-align: left;
     width: 100%;
     box-sizing: border-box;
-    height: 26px;
+    height: 2.6rem;
 }
 
 .left.text-muted {
@@ -166,8 +166,8 @@ h2.f4.text-normal.mb-3 {
     white-space: nowrap;
     position: absolute;
     z-index: 99999;
-    padding: 10px;
-    font-size: 12px;
+    padding: 1rem;
+    font-size: 1.2rem;
     color: #959da5;
     text-align: center;
     background: rgba(0,0,0,.85);
@@ -196,7 +196,7 @@ h2.f4.text-normal.mb-3 {
 
 text.ContributionCalendar-label {
     fill: #ccc;
-    font-size: 11px;
+    font-size: 1.1rem;
 }
 
 
@@ -206,7 +206,7 @@ text.ContributionCalendar-label {
         font-family: Helvetica, arial;
         border: 1px solid #DDDDDD;
         border-radius: 3px;
-        min-height: 80px;
+        min-height: 8rem;
         text-align: center;
         margin: 20px auto -20px auto;
         width: 90%;
@@ -219,17 +219,17 @@ text.ContributionCalendar-label {
     .contrib-column {
        text-align: center;
         border-left: 1px solid #ddd;
-          padding: 15px 0px;
+          padding: 1.5rem 0px;
        border-top: 1px solid #ddd;
-        font-size: 10px;
+        font-size: 1rem;
         background-color: black;
         color: white;
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px) {
+@media screen and (max-width: 768px) {
 
 
     .calendar {
